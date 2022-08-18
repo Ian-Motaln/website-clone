@@ -1,0 +1,50 @@
+
+a:visited {
+     color:blue;
+}
+
+img {
+    width: 50px;
+}
+div {
+    display: flex;
+}
+
+/* top two bars */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.review {
+    color:blue;
+}
+.remindMeLater {
+    color: gray;
+}
+
+.topbarmain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.topbarmainright img {
+    height: 100%;
+    width: 20px;
+}
+
+/*sidebar section*/
+.sidebar img {
+    height: 30px;  
+    width: 40px;
+}
+.sidebar {
+display: block;
+font-size: 10px;
+background-color: whitesmoke;
+width: 20%;
+}
+.sidebaryoutube {
+    color: gray;
+}
