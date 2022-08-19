@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- ↓↓↓ title, description, author name, keywords, og preview tags ↓↓↓ -->
+    <title>youtube</title>
+    <meta name="description" content="My first website">
+    <meta name="author" content="GK">
+    <meta name="keywords"
+    content="developer, fullstack, javascript developer, web and mobile developer portfolio, fullstack developer">
+    <link rel="shortcut icon" href="./images/youtubefavicon.png" type="image/x-icon">
+    <meta property="og:title" content="GK portfolio page">
+    <meta property="og:description" content="JavaScript Full-Stack Developer portfolio page with projects, contact information, experience and hourly rates">
+    <meta property="og:image" content="http://gk3000-portfolio.surge.sh/images/gk3000.jpg">
+    <meta property="og:url" content="http://gk3000-portfolio.surge.sh">
+    <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
 <!--top bar--> 
@@ -14,7 +24,7 @@
     <!--privacy reminder top bar-->
     <div>   
     <img src="images/privacyIcon.png"/>
-    <p> A privacy remidner from YouTube, a google company</p></div>
+    <p> A privacy remidner from YouTube, a google company</p></div> 
      <p> <span class="remindMeLater">Remind me later</span> <span class="review" ><a href="https://en.wikipedia.org/wiki/Google" Target="_blank">Review</a></span></p>
     
   </header>
@@ -28,40 +38,49 @@
     <div><input type="text"/> <button> <img src="images/search.png" alt="search icon"/></button></div>
     <div class="topbarmainright"> 
     <!--add add video icon-->
-    <img src="images/video-plus.png" alt="add you'r own youtube video">
+    <img src="images/video-plus.png" alt="add you'r own youtube video"> 
+   <!--dotted grid-->
     <img src="images/dottedicon.png" alt="dotted menue icon"/>
+        <!--share simbol-->
     <img src="images/share.webp" alt="share icon"/>
+        <!--sign in box-->
     <img src="images/signin.jpg" alt="sign in icon"/>
     </div>
-    <!--dotted grid-->
-    <!--share simbol-->
     <!--three dots vertical-->
-    <!--sign in box-->
 </div>
-
+<div class="main">
 <div class="sidebar">
 <!--side bar-->
     <!--drop down icon from top bar-->
+<!--container 1-->
     <!--home section-->
+
+    <div class="homesection"> 
 <p><img src="images/home.png" alt="home section"/> Home</p>
     <!--trending section -->
         <p><img src="images/trending.webp" alt="trending section"/>Trending</p>
     <!--subscriptions section-->
     <p><img src="images/subscriptions.png" alt="subscriptions section"/>subscriptions</p>
-    <!--thin horizontal line section-->
-    <p>_______________</p>
+    </div>
+   
+   <div class="librarysection">
+     <!--container 2-->
     <!--library section-->
     <p><img src="images/library.png" alt="library section"/> Library</p>
     <!--history section-->
     <p><img src="images/history.png" alt="history section"/>history</p>
-    <!--thin horizontal line section-->
-    <p>_______________</p>
+</div>
+    
+   <div class="signinsection">
+    <!--container 3-->
     <!--sign in box with text-->
     <p>Sign in to like videos,
     comment, and subscribe.</p>
     <p><img src="images/signin.jpg" alt="sign in icon">Sign in</p>
-    <!--thin horizontal line section-->
-    <p>_______________</p>
+</div>
+   
+   <div class="bestofyoutubesection">
+    <!--container 4-->
     <!--best of youtube header-->
     <p class="sidebaryoutube">BEST OF YOUTUBE</p>
     <!--sports section-->
@@ -76,20 +95,25 @@
     <p><img src="images/live.webp" alt="live section"/>Live</p>
     <!--360 section-->
     <p><img src="images/sports.png" alt="sports section"/>360˚</p>
-    <!--thin horizontal line section-->
-    <p>_______________</p>
+   </div>
+
+   <div class="browsechannelssection">
+   <!--container 5-->
     <!--browse channels section-->
     <p><img src="images/plusicon.png" alt="browse channels section"/>browse channels</p>
-    <!--thin horizontal line section-->
-    <p>_______________</p>
+</div>
+
+<div class="morefromyoutubesection">
+      <!--container 6-->
     <!--More from youtube header-->
     <p class="sidebaryoutube">MORE FROM YOUTUBE</p>
     <!--youtube premium section-->   
     <p><img src="images/youtubePremium.png" alt="Youtube premium section"/>Youtube premium</p>
     <!--Live section-->
     <p><img src="images/live2.jpg" alt="live section"/>Live</p>
-    <!--thin horizontal line section-->
-    <p>_______________</p>
+</div>
+<div class="settingssection">
+     <!--container 7-->
     <!--settings section-->
     <p><img src="images/settings.jpg" alt="settings section"/>Settings</p>
     <!--report histroy section-->
@@ -98,8 +122,12 @@
     <p><img src="images/help.png" alt="help section"/>Help</p>
     <!--send feetback section-->
     <p><img src="images/sendFeedback.png" alt="feetback section"/>Send feedback</p>
-    <!--horizontal line-->
-    <p>_______________</p>
+
+    
+</div>
+
+<div class="descriptionsection">
+      <!--container 8-->
     <!--description section-->
 
     <p>About Press Copyright
@@ -110,11 +138,155 @@
     <p class="sidebaryoutube">© 2019 YouTube, LLC YouTube, a
         Google company</p>
 </div>
+</div>
+
+<div class="maincontainer"> 
 <!--main section-->
+<!--info bar-->
+<div class="infobar">
+<div class="insideinfobarleft">
+<img src="images/info.webp"/>
+<p>Our Terms of Service have been updated. Please review the new Terms</p>
+</div>
+<div class="insideinfobarright">
+<p>OK Review</p>
+</div>
+</div>
 <!--youtube music picture-->
+<div class="youtubemusic">
+    <img src="images/youtubemusic.jpg" alt="youtube music pic"/>
+</div>
+<!--trending container-->
 <!--trending header-->
+<p class="trending">Trending</p>
+<div class="firstcontainer"> 
 <!--four youtube videos-->
-<!--this horizontal line-->
+<div class="container1image1">
+<img src="images/videothumbnail.jpg" alt="video thumbnail"/>
+<p>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY.....</p>
+<p class="textforfirstcontainer">DiMaRiO ☑</p>
+<p class="textforfirstcontainer">930K views • 19 hours ago</p>
+</div>
+<div class="container1image1">
+<img src="images/videothumbnail.jpg" alt="video thumbnail"/>
+<p>Demasiados perfiles falsos por un viaje gratis</p>
+<p class="textforfirstcontainer">Luisito Comunica ☑</p>
+<p class="textforfirstcontainer">5.7M views • 1 day ago</p>
+</div>
+<div class="container1image1"> 
+<img src="images/videothumbnail.jpg" alt="video thumbnail"/>
+<p>Contouring para la vida real Tutorial paso a paso</p>
+<p class="textforfirstcontainer">ratolina ☑</p>
+<p class="textforfirstcontainer">126K views • 15 hours ago</p>
+</div>
+<div class="container1image1"> 
+<img src="images/videothumbnail.jpg" alt="video thumbnail"/>
+<p>ROSALÍA, Ozuna - Yo x Ti, Tu × Mi (Official Video)</p>
+<p class="textforfirstcontainer">ROSALiA 🎵</p>
+<p class="textforfirstcontainer">8.3M views • 18 hours ago</p>
+</div>
+</div>
+
+<!--second container-->
+<div class="secondcontainer">
+<div class="topbarincontainer2">
+
+<div class="channelnameandicon">
+<img  class="channellogo"src="images/channellogo.jpg" alt="channel logo"/> <p class="recommendedchannelsection">Recommended channel </p></div>
+<img  class="topbarcontainer2image"src="images/subscribeicon.jpg" alt="subscribe icon"/>
+</div>
+<div class="videosectionincontainer2">
+    <div class="video1insecondcontainer"> 
+<img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+<p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+<p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+</div>
+
+    <div class="video1insecondcontainer">
+    <img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+    <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+    <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+    </div>
+
+        <div class="video1insecondcontainer">
+        <img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+        <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+        <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+        </div>
+        </div>
 <!--youtube channel logo-->
+<!--three youtube videos-->
+<!--subscribe button on section top right-->
+
+
+
+<div class="thirdcontainer">
+<!--youtube channel logo-->
+<div class="topbarincontainer2">
+    <div class="channelnameandicon">
+    <img  class="channellogo"src="images/channellogo.jpg" alt="channel logo"/> <p class="recommendedchannelsection">Recommended channel </p>
+    </div>
+    <div class="thirdcontainer video"></div>
+    <img  class="topbarcontainer2image"src="images/subscribeicon.jpg" alt="subscribe icon"/>   
+</div>
+<img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+            <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+            <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+<!--second video-->
+<img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+            <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+            <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+<!--third video-->
+<img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+            <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+            <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+<!--fourth video-->
+<img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+            <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+            <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+<!---->
+<!--subscribe button on section top right-->
+</div>
+
+<div class="fourthcontainer">
+    <!--youtube channel logo-->
+    <div class="topbarincontainer2">
+        <div class="channelnameandicon">
+        <img  class="channellogo"src="images/channellogo.jpg" alt="channel logo"/> <p class="recommendedchannelsection">Recommended channel </p></div>
+        <img  class="topbarcontainer2image"src="images/subscribeicon.jpg" alt="subscribe icon"/>
+        </div>
+
+        <div class="thirdcontainervideos">
+    <!--four youtube videos-->
+    <div class="video1insecondcontainer">
+        <img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+        <p class="textforfirstcontainer">What goes into feeding the NFL Team?</p>
+        <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+        </div>
+    <!--second video-->
+    <div class="video1insecondcontainer">
+        <img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+        <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+        <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+        </div>
+        <!--third video-->
+        <div class="video1insecondcontainer">
+            <img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+            <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+            <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+            </div>
+            <!--fourth video-->
+            <div class="video1insecondcontainer">
+                <img class="container1image1" src="images/videothumbnail.jpg" alt="video thumbnail"/>
+                <p class="textforfirstcontainer">Luis Fonsi, Demi Lovato,...</p>
+                <p class="textforfirstcontainer">Pop Latino Mix 2019 - Ozuna,</p>
+                </div>
+            </div>
+    <!--subscribe button on section top right-->
+    </div>
+</div>
+</div>
+
+</div>
 </body>
 </html>
